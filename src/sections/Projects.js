@@ -82,6 +82,7 @@ const ProjectImage = styled(Image)`
   height: ${CARD_HEIGHT};
   padding: 40px;
   margin-top: 0px;
+  object-fit: contain;
 
   ${MEDIA_QUERY_SMALL} {
     height: calc(${CARD_HEIGHT} / 2);
